@@ -33,18 +33,18 @@ The dataset was provided by Zion Tech Hub, spanning through 2015 - 2023. Data st
 ## Project Structure
 Sale_Analysis_queries:  Contains SQL queries for Analysis
 
-Produts_table:  product_id, prduct_name, isle_id,department_id, unit_price and unit_cost
+**Produts_table:**  product_id, prduct_name, isle_id,department_id, unit_price and unit_cost
 		Order_table:  Order_id, user_id, product_id, quantity, order_date,order_dow, order_hour_of_week, order_status
   
-Department_table:  deartment_id, department
+**Department_table:**  deartment_id, department
 
-Isle_table: isle_id, isle
+**Isle_table:** isle_id, isle
 
-Revenue & Profit Analysis: Power BI Dashboard
+**Revenue & Profit Analysis:** Power BI Dashboard
 
-Products & Sales Performance: Dashboard
+**Products & Sales Performance:** Dashboard
 
-Order & Delivery Insights: Power BI dashboard
+**Order & Delivery Insights:** Power BI dashboard
 
 ## Process Summary
 ### 1 Data Cleaning and Preparation using SQL:
@@ -57,9 +57,13 @@ Built interactive dashboards in Power BI to visualize key metrics and trends
 ## Key SQL Queries
 ### Top-Selling Products By Revenue
 SELECT p.product_name, SUM(p.unit_price*o.quantity) AS revenue
+
 FROM Products p
+
 INNER JOIN Orders o ON o.product_id = p.product_id 
+
 GROUP BY product_name
+
 ORDER BY revenue DESC;
 
 ### In Which Year did the Company generate the highest revenue
@@ -67,9 +71,22 @@ SELECT
 		EXTRACT(YEAR FROM o.order_date) AS Yr,
 		SUM((p.unit_price-p.unit_cost)*o.quantity) AS profit
 FROM Orders o
+
 INNER JOIN Products p ON o.product_id = p.product_id
+
 GROUP BY Yr
+
 ORDER BY profit DESC;
+
+### Is it true that 25% of our revenue is generated from juices?
+SELECT 
+	ROUND(100.0 * SUM(CASE WHEN p.product_name ILIKE '%juice%' THEN p.unit_price*o.quantity ELSE 0 END)
+	/SUM(p.unit_price*quantity),0) 
+	AS juice_revenue_percentage
+ 
+FROM Orders o
+
+INNER JOIN Products p ON  o.product_id = p.product_id;
 
 ## Visualization
 ## Revenue & Profit Analysis
