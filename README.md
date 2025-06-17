@@ -46,8 +46,10 @@ Sale_Analysis_queries:  Contains SQL queries for Analysis
 
 **Order & Delivery Insights:** Power BI dashboard
 
-## Process Summary
+## Data Processing Summary
 ### 1 Data Cleaning and Preparation using SQL:
+Handled missing and inconsistent data to ensure accuracy
+
 Created tables, imported and validated CSV data, ensuring all fields matched the correct data types and formats
 ### 2 Exploratory data analysis and KPI calculations:
 I carried out exploratory data analysis to identify potential issues , understand patterns and determine key metrics for a meaningful dashboard
