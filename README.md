@@ -94,9 +94,12 @@ INNER JOIN Products p ON  o.product_id = p.product_id;
 # ![Revenue & Profit](Revenue-Profit-Analysis.JPG)
 ## Key Insights
 In 2020, Instacart achieved its highest revenue, contributing 12.16% to the overall profit and a slight decline in profit margin 2022.
+
 The Personal Care department led all categories, generating over $42 million in revenue and $32 million in profit.
+
 ## Recomendation
 Invest in expanding the personal care product range and targeted marketing campaigns to further boost sales in this category.
+
 Consider bundling personal care products with related items to increase average order value.
 
 ## Sales & Product Performance
