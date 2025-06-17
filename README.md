@@ -32,14 +32,14 @@ Does juice account for 25% of the company’s total revenue?
 The dataset was provided by Zion Tech Hub, spanning through 2015 - 2023. Data structure includes key fields such as - Product_table, Order_table, Department_table and Isle_table
 
 ## Project Structure
-### Sale_Analysis_queries:  Contains SQL queries for Analysis
-### Produts_table:   product_id, prduct_name, isle_id,department_id, unit_price and unit_cost
-### Order_table:  Order_id, user_id, product_id, quantity, order_date,order_dow, order_hour_of_week, order_status
-### Department_table:  deartment_id, department
-### Isle_table: isle_id, isle
-### Revenue & Profit Analysis: Power BI Dashboard
-### Products & Sales Performance: Dashboard
-### Order & Delivery Insights: Power BI dashboard
+Sale_Analysis_queries:  Contains SQL queries for Analysis
+Produts_table:   product_id, prduct_name, isle_id,department_id, unit_price and unit_cost
+Order_table:  Order_id, user_id, product_id, quantity, order_date,order_dow, order_hour_of_week, order_status
+Department_table:  deartment_id, department
+Isle_table: isle_id, isle
+Revenue & Profit Analysis: Power BI Dashboard
+Products & Sales Performance: Dashboard
+Order & Delivery Insights: Power BI dashboard
 
 ## Process Summary
 ### 1 Data Cleaning and Preparation using SQL:
@@ -68,7 +68,7 @@ ORDER BY profit DESC;
 
 ## Visualization
 ## Revenue & Profit Analysis
-![Revenue & Profit](C:\Users\PC\Downloads\Consumer Research Screeshots\Revenue & Profit Analysis.JPG)
+![Revenue & Profit](Revenue & Profit Analysis.JPG)
 ## Key Insights
 In 2020, Instacart achieved its highest revenue, contributing 12.16% to the overall profit and a slight decline in profit margin 2022.
 The Personal Care department led all categories, generating over $42 million in revenue and $32 million in profit.
@@ -77,7 +77,7 @@ Invest in expanding the personal care product range and targeted marketing campa
 Consider bundling personal care products with related items to increase average order value.
 
 ## Sales & Product Performance
-![Sales & Products Performance](C:\Users\PC\Downloads\Consumer Research Screeshots\Product & Sales Performance.JPG)
+![Sales & Products Performance](Product & Sales Performance.JPG)
 ## Key Insights
 ### Top-Selling Products:
 The leading products by sales are "Tender White Meat Chicken with Vegetables and Rice in Cheddar Cheese Sauce" and "Vegetable Rice Bake."
@@ -95,7 +95,7 @@ Schedule chocolate promotions for Thursdays to leverage peak demand.
 Highlight these top-selling products in featured sections on the website and in marketing materials.
 
 ## Order & Delivery Insights
-![Order & Delivery Insights](C:\Users\PC\Downloads\Consumer Research Screeshots\Order & Delivery Insights.JPG)
+![Order & Delivery Insights](Order & Delivery Insights.JPG)
 ## Key Insights
 ### Order Volume:
 Total Orders: 1M
