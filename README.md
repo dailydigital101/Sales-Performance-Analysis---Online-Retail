@@ -92,6 +92,8 @@ FROM Orders o
 INNER JOIN Products p ON  o.product_id = p.product_id;
 
 ## Visualization
+## Landing Page
+# ![landing page](Landing-Page.JPG)
 ## Revenue & Profit Analysis
 # ![Revenue & Profit](Revenue-Profit-Analysis.JPG)
 ## Key Insights
