@@ -1,4 +1,4 @@
-# Sales-Performance-Dashboard---ECommerce
+# Sales-Performance-Dashboard---Ecommerce
 ## Overview
 This repository features a Power BI dashboard and SQL queries designed to analyze sales and product data, empowering grocery ecommerce businesses to gain transaction-level insights and drive business growth.
 
