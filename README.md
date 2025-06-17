@@ -127,18 +127,27 @@ Highlight these top-selling products in featured sections on the website and in 
 ## Key Insights
 ### Order Volume:
 Total Orders: 1M
+
 Total Quantity Sold: 12M
+
 Delivered Orders: 233K
+
 Delivery Rate: 22.26%
+
 ### Trends:
 Delivery rate peaked in 2020 and has since declined, with a sharp drop in 2022.
 
 The number of orders has generally followed a similar trend to delivery rates.
+
 ### Order Status Breakdown:
 44.42% of orders are still in Processing status.
+
 33.32% have been Shipped.
+
 Only 22.26% are Delivered.
+
 This highlights a potential bottleneck in order fulfillment and delivery processes.
+
 ### Orders by Department & Aisle:
 The highest order volumes are in Snacks (candy chocolate), Frozen (ice cream, chips), and Personal Care (vitamins and supplements).
 Dairy Eggs (yogurt, packaged cheese) and Beverages (tea) also see significant order activity.
