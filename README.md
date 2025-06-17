@@ -70,6 +70,7 @@ ORDER BY revenue DESC;
 SELECT 
 		EXTRACT(YEAR FROM o.order_date) AS Yr,
 		SUM((p.unit_price-p.unit_cost)*o.quantity) AS profit
+
 FROM Orders o
 
 INNER JOIN Products p ON o.product_id = p.product_id
