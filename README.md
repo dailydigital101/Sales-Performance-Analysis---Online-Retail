@@ -1,6 +1,6 @@
-# Sales-Performance-Dashboard---E.Commerce
+# Sales-Performance-Dashboard---ECommerce
 ## Overview
-This repository features a Power BI dashboard and SQL queries designed to analyze sales and product data, empowering grocery e-commerce businesses to gain transaction-level insights and drive business growth.
+This repository features a Power BI dashboard and SQL queries designed to analyze sales and product data, empowering grocery ecommerce businesses to gain transaction-level insights and drive business growth.
 
 ## Goal & Business Problems 
 Instacart, a leading e-commerce grocery platform, aimed to gain deeper insights into its daily transactions to improve decision-making and operational efficiency. The business sought to address the following key questions to better understand sales performance and customer behavior:
