@@ -111,13 +111,15 @@ The leading products by sales are "Tender White Meat Chicken with Vegetables and
 Weekly chocolate sales consistently peak on Thursdays.
 ### Nighttime Purchase Patterns:
 "Green Tea with Ginseng and Honey" is among the most frequently purchased items during nighttime hours.
-### Seasonal Trends:**
+### Seasonal Trends:
 Significant sales surges are observed during the first quarter of the year.
 ### Bread Sales Performance:
 Bread sales were particularly strong in the second and third quarters of 2016.
 ## Recomendations
 Prepare inventory and launch promotional campaigns ahead of Q1 to maximize revenue during peak demand.
+
 Schedule chocolate promotions for Thursdays to leverage peak demand.
+
 Highlight these top-selling products in featured sections on the website and in marketing materials.
 
 ## Order & Delivery Insights
@@ -130,6 +132,7 @@ Delivered Orders: 233K
 Delivery Rate: 22.26%
 ### Trends:
 Delivery rate peaked in 2020 and has since declined, with a sharp drop in 2022.
+
 The number of orders has generally followed a similar trend to delivery rates.
 ### Order Status Breakdown:
 44.42% of orders are still in Processing status.
